@@ -308,3 +308,82 @@
     - **Type:** String (Color)
     - **Key Features:** Specifies the review text color in dark mode.
 
+
+# Store Features
+
+## General
+- **Title**: مميزات المتجر
+- **Path**: home.R-feature-section
+
+### Settings
+- **ID:** feature
+  - **Label:** الميزة
+  - **Type:** Collection
+  - **Key Features:** Allows adding multiple features with customizable properties such as icons, animations, and descriptions.
+
+- **ID:** feature_name_color
+  - **Label:** لون اسم الميزة
+  - **Type:** String (Color)
+  - **Key Features:** Sets the color of the feature name.
+
+- **ID:** feature_desc_color
+  - **Label:** لون وصف الميزة
+  - **Type:** String (Color)
+  - **Key Features:** Defines the color for the feature description.
+
+- **ID:** feature_name_color_dark
+  - **Label:** لون اسم الميزة دارك مود
+  - **Type:** String (Color)
+  - **Key Features:** Defines the feature name color in dark mode.
+
+- **ID:** feature_desc_color_dark
+  - **Label:** لون وصف الميزة دارك مود
+  - **Type:** String (Color)
+  - **Key Features:** Sets the color for the feature description in dark mode.
+
+- **ID:** feature.feature_img
+  - **Label:** صورة الميزة
+  - **Type:** String (Image URL)
+  - **Key Features:** Allows setting an image for each feature.
+
+- **ID:** feature.animation
+  - **Label:** الانيميشن
+  - **Type:** String (Text)
+  - **Key Features:** Defines an animation from external sources like Lordicon.
+
+- **ID:** feature.main_animation_color
+  - **Label:** لون الانيميشن الأساسي
+  - **Type:** String (Color)
+  - **Key Features:** Sets the primary color of the animation.
+
+- **ID:** feature.secondary_animation_color
+  - **Label:** لون الانيميشن الثانوي
+  - **Type:** String (Color)
+  - **Key Features:** Defines the secondary animation color.
+
+- **ID:** feature.icon
+  - **Label:** الأيقونة
+  - **Type:** String (Text)
+  - **Key Features:** Specifies an icon for each feature.
+
+- **ID:** feature.icon_color
+  - **Label:** لون الأيقونة
+  - **Type:** String (Color)
+  - **Key Features:** Defines the color of the feature icon.
+
+- **ID:** feature.feature_name
+  - **Label:** اسم الميزة
+  - **Type:** String (Text)
+  - **Key Features:** Sets the name of the feature.
+
+- **ID:** feature.feature_desc
+  - **Label:** وصف الميزة
+  - **Type:** String (Text)
+  - **Key Features:** Provides a brief description of the feature.
+
+- **ID:** one_feature_in_moblie
+  - **Label:** وضع ميزة واحدة في وضع الموبايل
+  - **Type:** Boolean (Switch)
+  - **Key Features:** Enables displaying one feature at a time on mobile devices.
+
+
