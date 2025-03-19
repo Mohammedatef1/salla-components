@@ -69,3 +69,61 @@
 - `is_banner_image = true` → Uses `images` collection
 - `is_banner_image = false` → Uses `banners` collection
 - `auto_play = true` → Enables `slider_delay` control
+
+
+# Articles
+
+## General
+- **Title**: احدث المقالات
+- **Path**: home.R-articles
+
+### Settings
+- **ID:** articles
+  - **Label:** أضف المقالات
+  - **Type:** Items (Dropdown List)
+  - **Key Features:** Allows selecting multiple articles from the blog articles source; searchable and optional.
+
+- **ID:** article_name_color
+  - **Label:** لون عنوان المقال
+  - **Type:** String (Color)
+  - **Key Features:** Sets the color of the article title.
+
+- **ID:** author_name_color
+  - **Label:** لون تفاصيل المقال
+  - **Type:** String (Color)
+  - **Key Features:** Defines the color for article details.
+
+- **ID:** article_color
+  - **Label:** لون النص الأساسي للمقال
+  - **Type:** String (Color)
+  - **Key Features:** Specifies the primary text color for the article.
+
+- **ID:** article_name_color_dark
+  - **Label:** لون عنوان المقال دارك مود
+  - **Type:** String (Color)
+  - **Key Features:** Defines the article title color in dark mode.
+
+- **ID:** author_name_color_dark
+  - **Label:** لون تفاصيل المقال دارك مود
+  - **Type:** String (Color)
+  - **Key Features:** Sets the color for article details in dark mode.
+
+- **ID:** article_color_dark
+  - **Label:** لون النص الأساسي للمقال دارك مود
+  - **Type:** String (Color)
+  - **Key Features:** Defines the primary article text color in dark mode.
+
+- **ID:** btn_text
+  - **Label:** نص الزر
+  - **Type:** String (Text)
+  - **Key Features:** Sets the text displayed on the button, with a placeholder option.
+
+- **ID:** btn_text_color
+  - **Label:** لون الزر
+  - **Type:** String (Color)
+  - **Key Features:** Specifies the button color in light mode.
+
+- **ID:** btn_text_color_dark
+  - **Label:** لون الزر دارك مود
+  - **Type:** String (Color)
+  - **Key Features:** Defines the button color in dark mode.
