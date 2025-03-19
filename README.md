@@ -122,3 +122,87 @@
   - **Label:** لون الزر دارك مود
   - **Type:** String (Color)
   - **Key Features:** Defines the button color in dark mode.
+
+
+# Store Map
+
+## General
+- **Title**: خريطة المتجر
+- **Path**: home.R-store-map
+
+### Settings
+- **ID:** `main_heading`
+  - **Label:** عنوان رئيسي
+  - **Type:** String (Text)
+  - **Key Features:** Defines the main heading text.
+
+- **ID:** `main_heading_color`
+  - **Label:** لون العنوان الرئيسي
+  - **Type:** String (Color)
+  - **Key Features:** Sets the color of the main heading.
+
+- **ID:** `main_heading_color_dark`
+  - **Label:** لون العنوان الرئيسي دارك مود
+  - **Type:** String (Color)
+  - **Key Features:** Defines the main heading color in dark mode.
+
+- **ID:** `sub_heading`
+  - **Label:** عنوان فرعي
+  - **Type:** String (Text)
+  - **Key Features:** Defines the subheading text.
+
+- **ID:** `sub_heading_color`
+  - **Label:** لون العنوان الفرعي
+  - **Type:** String (Color)
+  - **Key Features:** Sets the color of the subheading.
+
+- **ID:** `sub_heading_color_dark`
+  - **Label:** لون العنوان الفرعي دارك مود
+  - **Type:** String (Color)
+  - **Key Features:** Defines the subheading color in dark mode.
+
+- **ID:** `location_text`
+  - **Label:** وصف الموقع
+  - **Type:** String (Text)
+  - **Key Features:** Provides a description for the store location.
+
+- **ID:** `location_text_color`
+  - **Label:** لون نص الموقع
+  - **Type:** String (Color)
+  - **Key Features:** Sets the color of the location text.
+
+- **ID:** `location_text_color_dark`
+  - **Label:** لون نص الموقع دارك مود
+  - **Type:** String (Color)
+  - **Key Features:** Defines the location text color in dark mode.
+
+- **ID:** `reach_methods_switch`
+  - **Label:** تشغيل طرق الوصول
+  - **Type:** Boolean (Switch)
+  - **Key Features:** Enables or disables reach methods.
+
+- **ID:** `location_url`
+  - **Label:** رابط موقعك
+  - **Type:** String (URL)
+  - **Key Features:** Allows setting a URL for the store location.
+
+- **ID:** `reach_methods`
+  - **Label:** نص رئيسي
+  - **Type:** String (Text)
+  - **Key Features:** Sets the main text for reach methods.
+
+- **ID:** `explaination_text`
+  - **Label:** نص توضيحي
+  - **Type:** String (Text)
+  - **Key Features:** Provides an explanatory text.
+
+- **ID:** `icon_background_color`
+  - **Label:** لون خلفية الأيقونات
+  - **Type:** String (Color)
+  - **Key Features:** Sets the background color for icons.
+
+- **ID:** `icon_background_color_dark`
+  - **Label:** لون خلفية الأيقونات دارك مود
+  - **Type:** String (Color)
+  - **Key Features:** Defines the icon background color in dark mode.
+
