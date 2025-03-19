@@ -478,3 +478,280 @@
   - **Label:** رابط الفيديو
   - **Type:** String (URL)
   - **Key Features:** Enables adding a video link to the section.
+
+### Code
+
+```json
+{
+  "key": "bce54d7f-69b7-4d9b-980e-865671b3602e",
+  "title": "الاسئلة الشائعة",
+  "icon": "sicon-store",
+  "path": "home.R-seq-section",
+  "fields": [
+      {
+          "id": "description",
+          "type": "static",
+          "format": "description",
+          "label": "Description",
+          "value": "<img src='https://placehold.co/600x400' />",
+          "variant": "h1",
+          "icon": "sicon-format-size"
+      },
+      {
+          "id": "background_img",
+          "type": "string",
+          "format": "image",
+          "label": "خلفية القسم",
+          "description": null,
+          "labelHTML": null,
+          "placeholder": "e.g. https://hostname.com/image.png",
+          "icon": "sicon-image",
+          "value": "",
+          "required": false
+      },
+      {
+          "id": "video_url",
+          "type": "string",
+          "format": "url",
+          "inputType": "url",
+          "label": "رابط الفيديو",
+          "description": null,
+          "labelHTML": null,
+          "placeholder": "e.g. https://salla.sa",
+          "icon": "sicon-link",
+          "value": null,
+          "required": false,
+          "minLength": "0",
+          "maxLength": "300"
+      },
+      {
+          "id": "background_color",
+          "type": "string",
+          "format": "color",
+          "inputType": "color",
+          "label": "لون الخلفيه",
+          "description": null,
+          "labelHTML": null,
+          "icon": "sicon-format-fill",
+          "value": "#00d4fa",
+          "required": false
+      },
+      {
+          "id": "section_name",
+          "type": "string",
+          "format": "text",
+          "label": "العنوان الرئيسي الأيمن",
+          "description": null,
+          "labelHTML": null,
+          "placeholder": "Placeholder text ..",
+          "icon": "sicon-format-text-alt",
+          "value": "",
+          "multilanguage": false,
+          "required": false,
+          "minLength": "0",
+          "maxLength": "50"
+      },
+      {
+          "id": "section_name_color",
+          "type": "string",
+          "format": "color",
+          "inputType": "color",
+          "label": "لون العنوان الرئيسي الأيمن",
+          "description": null,
+          "labelHTML": null,
+          "icon": "sicon-format-fill",
+          "value": "#ffffff",
+          "required": false
+      },
+      {
+          "id": "section_decs",
+          "type": "string",
+          "format": "text",
+          "label": "النص التوضيحي الايمن",
+          "description": null,
+          "labelHTML": null,
+          "placeholder": "Placeholder text ..",
+          "icon": "sicon-format-text-alt",
+          "value": "نحن سعيدون بالرد على أسئلتكم",
+          "multilanguage": false,
+          "required": false,
+          "minLength": "0",
+          "maxLength": "100"
+      },
+      {
+          "id": "section_decs_color",
+          "type": "string",
+          "format": "color",
+          "inputType": "color",
+          "label": "لون النص التوضيحي الايمن",
+          "description": null,
+          "labelHTML": null,
+          "icon": "sicon-format-fill",
+          "value": "#ffffff",
+          "required": false
+      },
+      {
+          "id": "btn_url",
+          "type": "string",
+          "format": "url",
+          "inputType": "url",
+          "label": "رابط الزر",
+          "description": null,
+          "labelHTML": null,
+          "placeholder": "e.g. https://salla.sa",
+          "icon": "sicon-link",
+          "value": "",
+          "required": false,
+          "minLength": "0",
+          "maxLength": "200"
+      },
+      {
+          "id": "btn_color",
+          "type": "string",
+          "format": "color",
+          "inputType": "color",
+          "label": "لون الزر",
+          "description": null,
+          "labelHTML": null,
+          "icon": "sicon-format-fill",
+          "value": "#b5e935",
+          "required": false
+      },
+      {
+          "id": "btn_text",
+          "type": "string",
+          "format": "text",
+          "label": "نص الزر",
+          "description": null,
+          "labelHTML": null,
+          "placeholder": "Placeholder text ..",
+          "icon": "sicon-format-text-alt",
+          "value": "",
+          "multilanguage": false,
+          "required": false,
+          "minLength": "0",
+          "maxLength": "100"
+      },
+      {
+          "id": "btn_text_color",
+          "type": "string",
+          "format": "color",
+          "inputType": "color",
+          "label": "لون نص الزر",
+          "description": null,
+          "labelHTML": null,
+          "icon": "sicon-format-fill",
+          "value": "#000000",
+          "required": false
+      },
+      {
+          "id": "head_section",
+          "type": "string",
+          "format": "text",
+          "label": "العنوان الرئيسي الأيسر",
+          "description": null,
+          "labelHTML": null,
+          "placeholder": "Placeholder text ..",
+          "icon": "sicon-format-text-alt",
+          "value": "",
+          "multilanguage": false,
+          "required": false,
+          "minLength": "0",
+          "maxLength": "100"
+      },
+      {
+          "id": "head_section_color",
+          "type": "string",
+          "format": "color",
+          "inputType": "color",
+          "label": "لون العنوان الرئيسي الأيسر",
+          "description": null,
+          "labelHTML": null,
+          "icon": "sicon-format-fill",
+          "value": "#b5e935",
+          "required": false
+      },
+      {
+          "id": "questions",
+          "type": "collection",
+          "format": "collection",
+          "label": "الاسئلة",
+          "description": null,
+          "labelHTML": null,
+          "item_label": null,
+          "icon": "sicon-list-add",
+          "fields": [
+              {
+                  "id": "questions.question",
+                  "type": "string",
+                  "format": "text",
+                  "label": "السؤال",
+                  "description": null,
+                  "labelHTML": null,
+                  "placeholder": "Placeholder text ..",
+                  "icon": "sicon-format-text-alt",
+                  "value": "",
+                  "multilanguage": false,
+                  "required": false,
+                  "minLength": "0",
+                  "maxLength": "200"
+              },
+              {
+                  "id": "questions.answer",
+                  "type": "string",
+                  "format": "text",
+                  "label": "الاجابه",
+                  "description": null,
+                  "labelHTML": null,
+                  "placeholder": "Placeholder text ..",
+                  "icon": "sicon-format-text-alt",
+                  "value": "",
+                  "multilanguage": false,
+                  "required": false,
+                  "minLength": "0",
+                  "maxLength": "200"
+              }
+          ],
+          "value": [],
+          "minLength": "0",
+          "maxLength": "100"
+      },
+      {
+          "id": "question_color",
+          "type": "string",
+          "format": "color",
+          "inputType": "color",
+          "label": "لون السؤال",
+          "description": null,
+          "labelHTML": null,
+          "icon": "sicon-format-fill",
+          "value": "#ffffff",
+          "required": false
+      },
+      {
+          "id": "answer_color",
+          "type": "string",
+          "format": "color",
+          "inputType": "color",
+          "label": "لون الاجابة",
+          "description": null,
+          "labelHTML": null,
+          "icon": "sicon-format-fill",
+          "value": "#ffffff",
+          "required": false
+      },
+      {
+          "id": "sub_background_color",
+          "type": "string",
+          "format": "color",
+          "inputType": "color",
+          "label": "لون الخلفية الجزئية",
+          "description": null,
+          "labelHTML": null,
+          "icon": "sicon-format-fill",
+          "value": "#ffffff",
+          "required": false
+      }
+  ]
+}
+```
