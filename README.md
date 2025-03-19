@@ -206,3 +206,105 @@
   - **Type:** String (Color)
   - **Key Features:** Defines the icon background color in dark mode.
 
+# Customer Reviews
+
+## General
+- **Title**: آراء العملاء
+- **Path**: home.R_customer_reviews
+
+### Settings
+- **ID:** section_title
+  - **Label:** عنوان القسم
+  - **Type:** String (Text)
+  - **Key Features:** Defines the section title text.
+
+- **ID:** section_title_color
+  - **Label:** لون عنوان القسم
+  - **Type:** String (Color)
+  - **Key Features:** Specifies the color of the section title.
+
+- **ID:** section_title_color_dark
+  - **Label:** لون عنوان القسم دارك مود
+  - **Type:** String (Color)
+  - **Key Features:** Sets the section title color in dark mode.
+
+- **ID:** sub_text
+  - **Label:** العنوان التوضيحي
+  - **Type:** String (Text)
+  - **Key Features:** Defines the subtitle or description text.
+
+- **ID:** sub_text_color
+  - **Label:** لون النص التوضيحي
+  - **Type:** String (Color)
+  - **Key Features:** Specifies the subtitle text color.
+
+- **ID:** sub_text_color_dark
+  - **Label:** لون النص التوضيحي دارك مود
+  - **Type:** String (Color)
+  - **Key Features:** Defines the subtitle text color in dark mode.
+
+- **ID:** section_background
+  - **Label:** لون خلفية القسم
+  - **Type:** String (Color)
+  - **Key Features:** Defines the background color for the section.
+
+- **ID:** section_background_dark
+  - **Label:** لون خلفية القسم دارك مود
+  - **Type:** String (Color)
+  - **Key Features:** Sets the background color for dark mode.
+
+- **ID:** card_background
+  - **Label:** لون خلفية العنصر
+  - **Type:** String (Color)
+  - **Key Features:** Specifies the background color of each review card.
+
+- **ID:** card_background_dark
+  - **Label:** لون خلفية العنصر دارك مود
+  - **Type:** String (Color)
+  - **Key Features:** Defines the background color of the review card in dark mode.
+
+- **ID:** cust_review
+  - **Label:** آراء العملاء
+  - **Type:** Collection (List)
+  - **Key Features:** Allows adding multiple customer reviews, including name, image, rating, and review text.
+
+  - **ID:** cust_review.cust_img
+    - **Label:** صورة العميل
+    - **Type:** String (Image URL)
+    - **Key Features:** Defines the customer profile image.
+
+  - **ID:** cust_review.cust_name
+    - **Label:** اسم العميل
+    - **Type:** String (Text)
+    - **Key Features:** Specifies the customer's name.
+
+  - **ID:** cust_review.cust_name_color
+    - **Label:** لون اسم العميل
+    - **Type:** String (Color)
+    - **Key Features:** Sets the text color of the customer's name.
+
+  - **ID:** cust_review.cust_name_color_dark
+    - **Label:** لون اسم العميل دارك مود
+    - **Type:** String (Color)
+    - **Key Features:** Defines the customer's name color in dark mode.
+
+  - **ID:** cust_review.rating
+    - **Label:** التقييم
+    - **Type:** Number (0-5)
+    - **Key Features:** Specifies the customer's rating from 0 to 5.
+
+  - **ID:** cust_review.review
+    - **Label:** رأي العميل
+    - **Type:** String (Text)
+    - **Key Features:** Stores the customer's written review.
+
+  - **ID:** cust_review.cust_review_color
+    - **Label:** لون رأي العميل
+    - **Type:** String (Color)
+    - **Key Features:** Defines the text color of the customer's review.
+
+  - **ID:** cust_review.cust_review_color_dark
+    - **Label:** لون رأي العميل دارك مود
+    - **Type:** String (Color)
+    - **Key Features:** Specifies the review text color in dark mode.
+
