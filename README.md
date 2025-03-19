@@ -897,97 +897,97 @@
 - **Path**: home.R_customer_reviews
 
 ### Settings
-- **ID:** section_title
+- **ID:** `section_title`
   - **Label:** عنوان القسم
   - **Type:** String (Text)
   - **Key Features:** Defines the section title text.
 
-- **ID:** section_title_color
+- **ID:** `section_title_color`
   - **Label:** لون عنوان القسم
   - **Type:** String (Color)
   - **Key Features:** Specifies the color of the section title.
 
-- **ID:** section_title_color_dark
+- **ID:** `section_title_color_dark`
   - **Label:** لون عنوان القسم دارك مود
   - **Type:** String (Color)
   - **Key Features:** Sets the section title color in dark mode.
 
-- **ID:** sub_text
+- **ID:** `sub_text`
   - **Label:** العنوان التوضيحي
   - **Type:** String (Text)
   - **Key Features:** Defines the subtitle or description text.
 
-- **ID:** sub_text_color
+- **ID:** `sub_text_color`
   - **Label:** لون النص التوضيحي
   - **Type:** String (Color)
   - **Key Features:** Specifies the subtitle text color.
 
-- **ID:** sub_text_color_dark
+- **ID:** `sub_text_color_dark`
   - **Label:** لون النص التوضيحي دارك مود
   - **Type:** String (Color)
   - **Key Features:** Defines the subtitle text color in dark mode.
 
-- **ID:** section_background
+- **ID:** `section_background`
   - **Label:** لون خلفية القسم
   - **Type:** String (Color)
   - **Key Features:** Defines the background color for the section.
 
-- **ID:** section_background_dark
+- **ID:** `section_background_dark`
   - **Label:** لون خلفية القسم دارك مود
   - **Type:** String (Color)
   - **Key Features:** Sets the background color for dark mode.
 
-- **ID:** card_background
+- **ID:** `card_background`
   - **Label:** لون خلفية العنصر
   - **Type:** String (Color)
   - **Key Features:** Specifies the background color of each review card.
 
-- **ID:** card_background_dark
+- **ID:** `card_background_dark`
   - **Label:** لون خلفية العنصر دارك مود
   - **Type:** String (Color)
   - **Key Features:** Defines the background color of the review card in dark mode.
 
-- **ID:** cust_review
+- **ID:** `cust_review`
   - **Label:** آراء العملاء
   - **Type:** Collection (List)
   - **Key Features:** Allows adding multiple customer reviews, including name, image, rating, and review text.
 
-  - **ID:** cust_review.cust_img
+  - **ID:** `cust_review.cust_img`
     - **Label:** صورة العميل
     - **Type:** String (Image URL)
     - **Key Features:** Defines the customer profile image.
 
-  - **ID:** cust_review.cust_name
+  - **ID:** `cust_review.cust_name`
     - **Label:** اسم العميل
     - **Type:** String (Text)
     - **Key Features:** Specifies the customer's name.
 
-  - **ID:** cust_review.cust_name_color
+  - **ID:** `cust_review.cust_name_color`
     - **Label:** لون اسم العميل
     - **Type:** String (Color)
     - **Key Features:** Sets the text color of the customer's name.
 
-  - **ID:** cust_review.cust_name_color_dark
+  - **ID:** `cust_review.cust_name_color_dark`
     - **Label:** لون اسم العميل دارك مود
     - **Type:** String (Color)
     - **Key Features:** Defines the customer's name color in dark mode.
 
-  - **ID:** cust_review.rating
+  - **ID:** `cust_review.rating`
     - **Label:** التقييم
     - **Type:** Number (0-5)
     - **Key Features:** Specifies the customer's rating from 0 to 5.
 
-  - **ID:** cust_review.review
+  - **ID:** `cust_review.review`
     - **Label:** رأي العميل
     - **Type:** String (Text)
     - **Key Features:** Stores the customer's written review.
 
-  - **ID:** cust_review.cust_review_color
+  - **ID:** `cust_review.cust_review_color`
     - **Label:** لون رأي العميل
     - **Type:** String (Color)
     - **Key Features:** Defines the text color of the customer's review.
 
-  - **ID:** cust_review.cust_review_color_dark
+  - **ID:** `cust_review.cust_review_color_dark`
     - **Label:** لون رأي العميل دارك مود
     - **Type:** String (Color)
     - **Key Features:** Specifies the review text color in dark mode.
@@ -1268,72 +1268,72 @@
 - **Path**: home.R-feature-section
 
 ### Settings
-- **ID:** feature
+- **ID:** `feature`
   - **Label:** الميزة
   - **Type:** Collection
   - **Key Features:** Allows adding multiple features with customizable properties such as icons, animations, and descriptions.
 
-- **ID:** feature_name_color
+- **ID:** `feature_name_color`
   - **Label:** لون اسم الميزة
   - **Type:** String (Color)
   - **Key Features:** Sets the color of the feature name.
 
-- **ID:** feature_desc_color
+- **ID:** `feature_desc_color`
   - **Label:** لون وصف الميزة
   - **Type:** String (Color)
   - **Key Features:** Defines the color for the feature description.
 
-- **ID:** feature_name_color_dark
+- **ID:** `feature_name_color_dark`
   - **Label:** لون اسم الميزة دارك مود
   - **Type:** String (Color)
   - **Key Features:** Defines the feature name color in dark mode.
 
-- **ID:** feature_desc_color_dark
+- **ID:** `feature_desc_color_dark`
   - **Label:** لون وصف الميزة دارك مود
   - **Type:** String (Color)
   - **Key Features:** Sets the color for the feature description in dark mode.
 
-- **ID:** feature.feature_img
+- **ID:** `feature.feature_img`
   - **Label:** صورة الميزة
   - **Type:** String (Image URL)
   - **Key Features:** Allows setting an image for each feature.
 
-- **ID:** feature.animation
+- **ID:** `feature.animation`
   - **Label:** الانيميشن
   - **Type:** String (Text)
   - **Key Features:** Defines an animation from external sources like Lordicon.
 
-- **ID:** feature.main_animation_color
+- **ID:** `feature.main_animation_color`
   - **Label:** لون الانيميشن الأساسي
   - **Type:** String (Color)
   - **Key Features:** Sets the primary color of the animation.
 
-- **ID:** feature.secondary_animation_color
+- **ID:** `feature.secondary_animation_color`
   - **Label:** لون الانيميشن الثانوي
   - **Type:** String (Color)
   - **Key Features:** Defines the secondary animation color.
 
-- **ID:** feature.icon
+- **ID:** `feature.icon`
   - **Label:** الأيقونة
   - **Type:** String (Text)
   - **Key Features:** Specifies an icon for each feature.
 
-- **ID:** feature.icon_color
+- **ID:** `feature.icon_color`
   - **Label:** لون الأيقونة
   - **Type:** String (Color)
   - **Key Features:** Defines the color of the feature icon.
 
-- **ID:** feature.feature_name
+- **ID:** `feature.feature_name`
   - **Label:** اسم الميزة
   - **Type:** String (Text)
   - **Key Features:** Sets the name of the feature.
 
-- **ID:** feature.feature_desc
+- **ID:** `feature.feature_desc`
   - **Label:** وصف الميزة
   - **Type:** String (Text)
   - **Key Features:** Provides a brief description of the feature.
 
-- **ID:** one_feature_in_moblie
+- **ID:** `one_feature_in_moblie`
   - **Label:** وضع ميزة واحدة في وضع الموبايل
   - **Type:** Boolean (Switch)
   - **Key Features:** Enables displaying one feature at a time on mobile devices.
@@ -1550,87 +1550,87 @@
 - **Path**: home.R-seq-section
 
 ### Settings
-- **ID:** questions
+- **ID:** `questions`
   - **Label:** الاسئلة
   - **Type:** Collection
   - **Key Features:** Allows adding multiple FAQ items, each containing a question and an answer.
 
-- **ID:** question_color
+- **ID:** `question_color`
   - **Label:** لون السؤال
   - **Type:** String (Color)
   - **Key Features:** Sets the color for questions.
 
-- **ID:** answer_color
+- **ID:** `answer_color`
   - **Label:** لون الاجابة
   - **Type:** String (Color)
   - **Key Features:** Defines the color for answers.
 
-- **ID:** background_img
+- **ID:** `background_img`
   - **Label:** خلفية القسم
   - **Type:** String (Image)
   - **Key Features:** Allows setting a background image for the section.
 
-- **ID:** background_color
+- **ID:** `background_color`
   - **Label:** لون الخلفيه
   - **Type:** String (Color)
   - **Key Features:** Specifies the background color of the section.
 
-- **ID:** sub_background_color
+- **ID:** `sub_background_color`
   - **Label:** لون الخلفية الجزئية
   - **Type:** String (Color)
   - **Key Features:** Defines a secondary background color.
 
-- **ID:** section_name
+- **ID:** `section_name`
   - **Label:** العنوان الرئيسي الأيمن
   - **Type:** String (Text)
   - **Key Features:** Defines the right-side main heading.
 
-- **ID:** section_name_color
+- **ID:** `section_name_color`
   - **Label:** لون العنوان الرئيسي الأيمن
   - **Type:** String (Color)
   - **Key Features:** Sets the color for the right-side heading.
 
-- **ID:** section_decs
+- **ID:** `section_decs`
   - **Label:** النص التوضيحي الايمن
   - **Type:** String (Text)
   - **Key Features:** Allows adding a right-side description.
 
-- **ID:** section_decs_color
+- **ID:** `section_decs_color`
   - **Label:** لون النص التوضيحي الايمن
   - **Type:** String (Color)
   - **Key Features:** Sets the color for the right-side description.
 
-- **ID:** head_section
+- **ID:** `head_section`
   - **Label:** العنوان الرئيسي الأيسر
   - **Type:** String (Text)
   - **Key Features:** Defines the left-side main heading.
 
-- **ID:** head_section_color
+- **ID:** `head_section_color`
   - **Label:** لون العنوان الرئيسي الأيسر
   - **Type:** String (Color)
   - **Key Features:** Sets the color for the left-side heading.
 
-- **ID:** btn_text
+- **ID:** `btn_text`
   - **Label:** نص الزر
   - **Type:** String (Text)
   - **Key Features:** Sets the text displayed on the button.
 
-- **ID:** btn_text_color
+- **ID:** `btn_text_color`
   - **Label:** لون نص الزر
   - **Type:** String (Color)
   - **Key Features:** Defines the text color of the button.
 
-- **ID:** btn_color
+- **ID:** `btn_color`
   - **Label:** لون الزر
   - **Type:** String (Color)
   - **Key Features:** Specifies the button color.
 
-- **ID:** btn_url
+- **ID:** `btn_url`
   - **Label:** رابط الزر
   - **Type:** String (URL)
   - **Key Features:** Allows setting a hyperlink for the button.
 
-- **ID:** video_url
+- **ID:** `video_url`
   - **Label:** رابط الفيديو
   - **Type:** String (URL)
   - **Key Features:** Enables adding a video link to the section.
