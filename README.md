@@ -387,3 +387,94 @@
   - **Key Features:** Enables displaying one feature at a time on mobile devices.
 
 
+# FAQ Section
+
+## General
+- **Title**: الاسئلة الشائعة
+- **Path**: home.R-seq-section
+
+### Settings
+- **ID:** questions
+  - **Label:** الاسئلة
+  - **Type:** Collection
+  - **Key Features:** Allows adding multiple FAQ items, each containing a question and an answer.
+
+- **ID:** question_color
+  - **Label:** لون السؤال
+  - **Type:** String (Color)
+  - **Key Features:** Sets the color for questions.
+
+- **ID:** answer_color
+  - **Label:** لون الاجابة
+  - **Type:** String (Color)
+  - **Key Features:** Defines the color for answers.
+
+- **ID:** background_img
+  - **Label:** خلفية القسم
+  - **Type:** String (Image)
+  - **Key Features:** Allows setting a background image for the section.
+
+- **ID:** background_color
+  - **Label:** لون الخلفيه
+  - **Type:** String (Color)
+  - **Key Features:** Specifies the background color of the section.
+
+- **ID:** sub_background_color
+  - **Label:** لون الخلفية الجزئية
+  - **Type:** String (Color)
+  - **Key Features:** Defines a secondary background color.
+
+- **ID:** section_name
+  - **Label:** العنوان الرئيسي الأيمن
+  - **Type:** String (Text)
+  - **Key Features:** Defines the right-side main heading.
+
+- **ID:** section_name_color
+  - **Label:** لون العنوان الرئيسي الأيمن
+  - **Type:** String (Color)
+  - **Key Features:** Sets the color for the right-side heading.
+
+- **ID:** section_decs
+  - **Label:** النص التوضيحي الايمن
+  - **Type:** String (Text)
+  - **Key Features:** Allows adding a right-side description.
+
+- **ID:** section_decs_color
+  - **Label:** لون النص التوضيحي الايمن
+  - **Type:** String (Color)
+  - **Key Features:** Sets the color for the right-side description.
+
+- **ID:** head_section
+  - **Label:** العنوان الرئيسي الأيسر
+  - **Type:** String (Text)
+  - **Key Features:** Defines the left-side main heading.
+
+- **ID:** head_section_color
+  - **Label:** لون العنوان الرئيسي الأيسر
+  - **Type:** String (Color)
+  - **Key Features:** Sets the color for the left-side heading.
+
+- **ID:** btn_text
+  - **Label:** نص الزر
+  - **Type:** String (Text)
+  - **Key Features:** Sets the text displayed on the button.
+
+- **ID:** btn_text_color
+  - **Label:** لون نص الزر
+  - **Type:** String (Color)
+  - **Key Features:** Defines the text color of the button.
+
+- **ID:** btn_color
+  - **Label:** لون الزر
+  - **Type:** String (Color)
+  - **Key Features:** Specifies the button color.
+
+- **ID:** btn_url
+  - **Label:** رابط الزر
+  - **Type:** String (URL)
+  - **Key Features:** Allows setting a hyperlink for the button.
+
+- **ID:** video_url
+  - **Label:** رابط الفيديو
+  - **Type:** String (URL)
+  - **Key Features:** Enables adding a video link to the section.
